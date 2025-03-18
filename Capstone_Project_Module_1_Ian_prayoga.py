@@ -206,7 +206,7 @@ def menghapus_data_buku():
 def menu_display_data():
     while True:
         display_menu_display_data()
-        choice = input("Pilih menu (1-3): ")
+        choice = input("Pilih menu (1-5): ")
         if choice == '1':
             menampilkan_semua_data()
         elif choice == '2':
@@ -230,7 +230,7 @@ def menu_create_data():
 def menu_update_data():
     while True:
         display_menu_update_data()
-        choice = input("Pilih menu (1-2): ")
+        choice = input("Pilih menu (1-4): ")
         if choice == '1':
             mengubah_data_buku()
         elif choice == '2':
@@ -252,7 +252,7 @@ def menu_delete_data():
 def main_menu():
     while True:
         display_main_menu()
-        choice = input("Pilih menu (1-7): ")
+        choice = input("Pilih menu (1-6): ")
         if choice == '1':
             menu_display_data()
         elif choice == '2':
